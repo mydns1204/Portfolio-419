@@ -173,12 +173,10 @@ body.scrolled .arrow-up {
     margin-top: 80px;
     margin-bottom:  160px;
 }
-.personalProfileContainer h2{
+.personalProfileContainer h1{
     color: #EA559D;
 }
-.personalProfileContainer h2 span{
-    font-weight: 400;
-}
+
 .personalProfileContainer img{
     width: 280px;
 }
