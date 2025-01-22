@@ -754,6 +754,10 @@ h3 span{
     gap: 24px;
 }
 
+.contactdata a{
+    color: #343A40;
+    font-size: 1rem;
+}
 
 .bolgContainer{
     display: grid;
