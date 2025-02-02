@@ -100,14 +100,14 @@ ul{
     right: 32px;
     font-size: 2rem;
     text-decoration: none;
-    background-color: #FB5FAB;
+    background-color: var(--ws-total-color-0);
     color: #FFFFFF;
     padding: 8px 16px;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
 }
 .arrow-up:hover {
-    background-color: #EA559D;
+    background-color: var(--ws-total-color-1);
 }
 
 body.scrolled .arrow-up {
@@ -126,8 +126,8 @@ body.scrolled .arrow-up {
     flex-direction: row;
     justify-content: space-between;
     z-index: 100;
-    border-bottom: 1px solid #e6e8ea;
-    background-color: #FFFFFF;
+    border-bottom: 1px solid var(--ws-total-color-5);
+    background-color: var(--ws-total-color-4);
 }
 
 #container{
@@ -157,10 +157,10 @@ body.scrolled .arrow-up {
 
 .nevMenu ul a{
     font-size: 1.25rem;
-    color: #343A40;
+    color: var(--ws-total-color-6);
 }
 .nevMenu ul a:hover{
-    color: #EA559D;
+    color: var(--ws-total-color-1);
     font-weight: 600;
 }
 
@@ -174,7 +174,7 @@ body.scrolled .arrow-up {
     margin-bottom:  160px;
 }
 .personalProfileContainer h1{
-    color: #EA559D;
+    color: var(--ws-total-color-1);
 }
 
 .personalProfileContainer img{
@@ -203,15 +203,15 @@ h3 span{
 
 }
 .workLabelStyle{
-    border: 2px solid #EA559D;
+    border: 2px solid var(--ws-total-color-1);
     padding: 0.5em 1.5em;
     border-radius: 50px;
-    color: #EA559D;
+    color: var(--ws-total-color-1);
 }
 
 .workLabelStyle:hover{
-    background-color: #EA559D;
-    color: #FFFFFF;
+    background-color: var(--ws-total-color-1);
+    color: var(--ws-total-color-4);
 }
 
 /* Slide*/
@@ -251,7 +251,7 @@ h3 span{
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    color: #FB5FAB;
+    color: var(--ws-total-color-0);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -266,9 +266,9 @@ h3 span{
     padding-right: 2px;
 }
 .prev:hover, .next:hover {
-    background-color: #FB5FAB;
+    background-color: var(--ws-total-color-0);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    color: #FFFFFF;
+    color: var(--ws-total-color-4);
 }
 .allDot{
     display: flex;
@@ -286,7 +286,7 @@ h3 span{
     cursor: pointer;
     height: 12px;
     width: 12px;
-    background: #FCEEF5;
+    background: var(--ws-total-color-3);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -303,7 +303,7 @@ h3 span{
     position: relative;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    color: #FFFFFF;
+    color: var(--ws-total-color-4);
     border-radius: 8px;
 }
 
@@ -628,11 +628,11 @@ h3 span{
 }
 
 .labelStyleColor1{
-    border-color: #c1cd9e;
-    background-color: rgba(253, 246, 144, 0.2);
+    border-color: var(--ws-total-color-0);
+    background-color: hsla(330, 77%, 91%, 0.5);
 }
 .labelStyleColor2{
-    border-color: #92cdc9;
+    border-color: #518fa8;
     background-color: rgba(146, 205, 201, 0.2);
 }
 .labelStyleColor3{
